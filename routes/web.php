@@ -17,9 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/page1', function () {
-    return view('page1');
+Route::get('/sanpham', function () {
+    return view('sanpham');
 });
-Route::get('/page2', function () {
-    return view('page1');
+Route::get('/index', function () {
+    return view('index');
+});
+Route::get('/lienhe', function () {
+    return view('lienhe');
+});
+Route::get('/gioithieu', function () {
+    return view('gioithieu');
 });
